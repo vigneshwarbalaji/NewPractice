@@ -24,3 +24,40 @@ body {
     border-bottom: 2px dashed;
     color: skyblue;
 }
+
+.cont1 {
+    font-size: 12px;
+    padding: 20px;
+}
+
+#head1 {
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline skyblue;
+}
+
+.cont2 {
+    font-size: 12px;
+    padding: 20px;
+}
+
+#head2 {
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline skyblue;
+}
+
+.cont3 {
+    font-size: 12px;
+    padding: 20px;
+}
+
+#head3 {
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline skyblue;
+}
+
+.foot {
+    background-color: cyan;
+}
