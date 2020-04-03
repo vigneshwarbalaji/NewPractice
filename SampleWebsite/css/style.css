@@ -106,10 +106,26 @@ th {
     padding: 10px;
 }
 
+td {
+    text-align: center;
+    padding: 8px;
+}
+
 tr:nth-of-type(even) {
     background-color: skyblue;
 }
 
 tr:nth-of-type(odd) {
     background-color: rgb(252, 199, 199);
+}
+
+.cont4 {
+    font-size: 12px;
+    padding: 20px;
+}
+
+#head4 {
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline skyblue;
 }
