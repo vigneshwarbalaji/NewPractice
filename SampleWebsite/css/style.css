@@ -58,6 +58,14 @@ body {
     text-decoration: underline skyblue;
 }
 
-.foot {
-    background-color: cyan;
+footer {
+    position: relative;
+    padding: 20px;
+    border: blueviolet solid;
+    background-color: rgb(204, 200, 200);
+    color: black;
+}
+
+#f1 {
+    color: blueviolet;
 }
