@@ -69,3 +69,47 @@ footer {
 #f1 {
     color: blueviolet;
 }
+
+.imageContainer img {
+    max-width: 90%;
+    max-height: 5%;
+    padding: 20px;
+    border: skyblue dashed;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.procont {
+    margin: 10px;
+    padding: 20px;
+}
+
+#prointro {
+    color: blueviolet;
+    font-size: 20px;
+    padding-left: 5px;
+    text-decoration: underline skyblue;
+}
+
+#propara {
+    padding: 10px;
+}
+
+.tabcont {
+    padding: 10px;
+    width: 100%;
+}
+
+th {
+    background-color: lightsteelblue;
+    font-size: 15px;
+    padding: 10px;
+}
+
+tr:nth-of-type(even) {
+    background-color: skyblue;
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(252, 199, 199);
+}
