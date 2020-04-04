@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 id="l1"><strong>Sample</strong></h1>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a href="index.html"><strong>HOME</strong></a>
+        <a href="projects.html"><strong>PROJECTS</strong></a>
+        <a href="products.html"><strong>PRODUCTS</strong></a>
+        <a href="games.html"><strong>ONLINE APPS</strong></a>
+    </nav>
+
+    <section class="gamcont">
+        <heading id="gamhead"><strong>Birthday Month Fortune Finder</strong></heading>
+        <p id="gampara">Enter your month below :</p>
+        <form action="js/bday.js" id="for1">
+            <input type="text" id="month">
+        </form>
+        <button type="submit" id="subbut1" onclick="myFunction()" value="submit">submit</button>
+        <p id="gampara">Result : </p>
+        <p id="gamres"></p>
+    </section>
+</body>
+
+</html>
