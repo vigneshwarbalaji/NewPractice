@@ -1,0 +1,58 @@
+/*Css basics*/
+
+body {}
+
+
+/*Questions : what are the ways that we can display block elements in sameline
+  and what is the difference between inline and inline block*/
+
+
+/* displaying the block elements in same line*/
+
+
+/*1st way*/
+
+
+/*
+div {
+    display: inline;
+    /*The difference between inline and inline block is that
+      the changes in width height and top and bottom would not affect it
+      where as incase of inline block we can make changes*/
+
+
+/*height: 1000px;
+    width: 500px;
+    top: 100px;
+    bottom: 500px;
+    
+}
+*/
+
+
+/*2nd way
+
+div {
+    float: left;
+}
+*/
+
+
+/*3rd way
+
+The difference between 3rd and the first way is inline block allows to set top bottom height
+and width whereas inline wont allow us
+div {
+    display: inline-block;
+}
+*/
+
+
+/*4th way 
+In this way the block elements can be placed in same line 
+but they might overlap with each other
+*/
+
+div {
+    position: absolute;
+}

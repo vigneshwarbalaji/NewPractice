@@ -219,3 +219,7 @@ tr:nth-of-type(odd) {
 #gamres {
     font-size: 15px;
 }
+
+#test {
+    display: inline;
+}
