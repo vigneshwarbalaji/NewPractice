@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: ghostwhite;
+}
+
+.logo {
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding: 18px;
+    margin: 15px;
+    /*margin: 0 0 30px 0;*/
+    border: 3px deepskyblue solid;
+}
+
+.clockedIn input[type="button"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    /*position: absolute;*/
+    display: inline;
+    float: right;
+    /*right: 40px;*/
+}
+
+.clockedOut input[type="button"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    /*position: absolute;*/
+    display: inline;
+    float: left;
+    /*right: 40px;*/
+}
+
+.Timezone input[type="button"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    /*position: absolute;*/
+    display: inline;
+    /*right: 40px;*/
+}
+
+.heading1 {
+    padding: 15px;
+    margin: 5px;
+}
+
+
+/*
+.clockies.clockedIn {
+    float: left;
+}
+
+.clockies.clockedOut {
+    float: right;
+}*/
