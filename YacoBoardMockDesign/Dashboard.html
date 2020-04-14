@@ -5,6 +5,7 @@
     <title>
         Time Tracker
     </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="css\newstyle.css">
 </head>
 
@@ -16,19 +17,59 @@
     </header>
 
     <!--<div class="clockies">-->
-    <div class="clockedIn">
-        <input type="button" name="" value="Clocked-In">
+    <div class="bluey" id="clockIn">
+        <input type="button" name="" value="Clock-In">
     </div>
-    <div class="clockedOut">
-        <input type="button" name="" value="Clocked-Out">
+    <div class="bluey" id="clockOut">
+        <input type="button" name="" value="Clock-Out">
     </div>
 
-    <div class="Timezone" align="center">
+    <div class="bluey" id="Timezone" align="center">
         <input type="button" name="" value="timezone">
     </div>
 
     <div class="heading1">
         <strong>Entries</strong>
+    </div>
+
+    <span class="material-icons" id="i0">
+        add_circle_outline
+    </span>
+
+
+
+    <Table class="tabcont">
+        <tr>
+            <th id="th1">Add Task Description</th>
+            <th id="th2">Project</th>
+            <th id="th3">clock-In</th>
+            <th id="th4">clock-out</th>
+            <th id="th5">Total Hours</th>
+        </tr>
+        <tr>
+            <td>Adding New feature</td>
+            <td>Contact App</td>
+            <td>9:00 AM</td>
+            <td>4:00 PM</td>
+            <td>7h
+                <span class="material-icons" id="">create</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Log In Feature</td>
+            <td>Mock Design</td>
+            <td>9:00 AM</td>
+            <td>4:00 pm</td>
+            <td>7h
+                <span class="material-icons" id="">create</span>
+            </td>
+        </tr>
+
+    </Table>
+    </div>
+
+    <div class="bluey" class="Logout" align="center">
+        <input type="button" name="" value="Logout">
     </div>
 </body>
 

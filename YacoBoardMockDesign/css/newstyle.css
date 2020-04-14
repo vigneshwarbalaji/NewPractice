@@ -15,7 +15,7 @@ body {
     border: 3px deepskyblue solid;
 }
 
-.clockedIn input[type="button"] {
+.bluey input[type="button"] {
     background: transparent;
     border: none;
     outline: none;
@@ -25,54 +25,72 @@ body {
     margin: 20px;
     cursor: pointer;
     border-radius: 5px;
-    /*position: absolute;*/
     display: inline;
-    float: right;
-    /*right: 40px;*/
 }
 
-.clockedOut input[type="button"] {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #03a9f4;
-    padding: 10px;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    /*position: absolute;*/
+#clockIn input[type="button"] {
     display: inline;
     float: left;
-    /*right: 40px;*/
 }
 
-.Timezone input[type="button"] {
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #03a9f4;
-    padding: 10px;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    /*position: absolute;*/
+#clockOut input[type="button"] {
     display: inline;
-    /*right: 40px;*/
+    float: right;
 }
 
 .heading1 {
     padding: 15px;
     margin: 5px;
+    display: inline;
 }
 
-
-/*
-.clockies.clockedIn {
-    float: left;
-}
-
-.clockies.clockedOut {
+#i0 {
     float: right;
-}*/
+    padding: 15px;
+    margin: 5px;
+}
+
+#i1 {
+    float: right;
+}
+
+#i2 {
+    float: right;
+}
+
+.tabcont {
+    padding: 10px;
+    width: 100%;
+}
+
+th {
+    background-color: lightsteelblue;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+#th1 {
+    width: 20%;
+}
+
+#th5 {
+    width: 10%;
+}
+
+tr:nth-of-type(even) {
+    /*padding: 10px;*/
+    background-color: white;
+    color: black;
+}
+
+tr:nth-of-type(odd) {
+    /*padding: 10px;*/
+    background-color: black;
+    color: white;
+}
