@@ -1,0 +1,3 @@
+Comparator interface is used to order the objects of user-defined classes. 
+A comparator object is capable of comparing two objects of two different classes.
+Following function compare obj1 with obj2
